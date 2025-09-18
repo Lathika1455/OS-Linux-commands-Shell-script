@@ -498,23 +498,19 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+<img width="264" height="70" alt="image" src="https://github.com/user-attachments/assets/db845d17-1ed0-44a1-859a-665ddf6b137e" />
+
  
 ls file1
 ## OUTPUT
 
-echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
+<img width="318" height="71" alt="image" src="https://github.com/user-attachments/assets/b9335bfa-7cb9-4baa-a4fe-9e2669790110" />
 
+
+echo $?
+## OUTPUT 
+
+<img width="323" height="93" alt="image" src="https://github.com/user-attachments/assets/17fe4465-a9e0-40a1-b92f-607fb2ee9288" /> 
 
  
 # mis-using string comparisons
@@ -545,14 +541,18 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 
+<img width="401" height="270" alt="image" src="https://github.com/user-attachments/assets/3e79a251-392c-407b-a017-ee035053cc00" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
+
 ## OUTPUT
+
+<img width="340" height="81" alt="image" src="https://github.com/user-attachments/assets/7133181d-a734-48c4-91dd-04af820c2fd5" />
 
 
 # check file ownership
