@@ -581,6 +581,9 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
+<img width="646" height="128" alt="image" src="https://github.com/user-attachments/assets/dce95808-0791-44e9-9e5a-059b7d4f9769" />
+
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -627,6 +630,8 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="600" height="180" alt="image" src="https://github.com/user-attachments/assets/7e772bbf-cda4-4179-a18e-7f5e78595486" />
+
 
 
 # using numeric test comparisons
@@ -669,7 +674,11 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+
+## OUTPUT
+
+<img width="522" height="149" alt="image" src="https://github.com/user-attachments/assets/a1260c62-75e5-438d-b67b-b60c7d1ae641" />
+
 
 # check if a file
 cat > ifnested.sh 
@@ -718,7 +727,11 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
+
+<img width="581" height="130" alt="image" src="https://github.com/user-attachments/assets/0ee6ab6e-dd3b-4908-941d-b08172dbe7b1" />
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -749,6 +762,10 @@ $ ./elifcheck.sh
 ## OUTPUT
 
 
+<img width="413" height="176" alt="image" src="https://github.com/user-attachments/assets/ad339335-22ed-4b0f-a489-a1d375c6f530" />
+
+
+
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
@@ -763,6 +780,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="490" height="94" alt="image" src="https://github.com/user-attachments/assets/56171db0-b7b2-4d3e-9a85-2df433aa300f" />
+
 
 # using the case command
 cat >casecheck.sh 
