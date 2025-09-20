@@ -800,8 +800,12 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
 $ ./casecheck.sh 
+
+## Output
+
+<img width="462" height="122" alt="image" src="https://github.com/user-attachments/assets/08cf5e62-b64a-4bd7-88ed-7ea1be5b6854" />
+
  
 cat > whiletest
 ```bash
@@ -815,9 +819,14 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
+
 $ ./whiletest.sh
- 
+
+## Output
+
+
+<img width="598" height="422" alt="image" src="https://github.com/user-attachments/assets/6fa7d060-43ab-4e0c-beef-64863c081096" />
+
  
 cat untiltest.sh 
 ```bash
@@ -830,7 +839,12 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+
+## Output
+
+
+<img width="406" height="200" alt="image" src="https://github.com/user-attachments/assets/60c51acd-3547-4470-a2fa-1d7a7ebd6f33" />
+
  
  
 cat forin1.sh 
@@ -844,7 +858,12 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+
+ ## Output
+
+
+ <img width="650" height="277" alt="image" src="https://github.com/user-attachments/assets/71a0b049-5af9-4f49-9693-d47affe84cbc" />
+
  
 cat forin2.sh 
 ```bash
@@ -870,6 +889,12 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+## Output
+
+
+<img width="540" height="194" alt="image" src="https://github.com/user-attachments/assets/924e91c8-b490-4771-aa62-dd7b16b23f44" />
+
  
 cat forin3.sh 
 ```bash
@@ -881,7 +906,12 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+
+## Output
+
+<img width="555" height="274" alt="image" src="https://github.com/user-attachments/assets/46d4decf-7bfd-4666-b68c-0228ecf6ca14" />
+
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -894,6 +924,11 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+
+<img width="662" height="256" alt="image" src="https://github.com/user-attachments/assets/072c7cc2-e407-4bd7-9818-b0ea389fa643" />
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -917,6 +952,9 @@ Khammam
 ## OUTPUT
 
 
+<img width="363" height="228" alt="image" src="https://github.com/user-attachments/assets/1b9964f6-8fc5-42fb-912a-83f2faaf3907" />
+
+
 cat forctype.sh 
 ```bash
 #!/bin/bash
@@ -930,6 +968,9 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+
+
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -942,6 +983,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+
 
 cat fornested1.sh 
 ```bash
